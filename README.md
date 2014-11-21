@@ -114,4 +114,4 @@ To execute the test issue the following command:
  ```
  PATH=/usr/local/sbin:$PATH TEST_NGINX_SERVROOT=`pwd`/target/servroot TEST_NGINX_PORT=1989 prove -I ./test/resources/test-nginx/lib -r ./test/perl/hmac.t
  ```
- This command only executes the test `awsv4signature.t`.
+ This command only executes the test `hmac.t`.

@@ -15,6 +15,8 @@ install: all
 	$(INSTALL) src/lua/api-gateway/resty/*.lua $(DESTDIR)/$(LUA_LIB_DIR)/api-gateway/resty/
 
 test:
+	echo "updating git submodules ..."
+	if [ ! -d "test/resources/test-nginx/lib" ]; then	git submodule update --init --recursive; fi
 	echo "running tests ..."
 #	cp -r test/resources/api-gateway $(BUILD_DIR)
 	mkdir  -p $(BUILD_DIR)/

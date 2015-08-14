@@ -1,7 +1,9 @@
 api-gateway-hmac
 ================
 
-Adds HMAC support to Lua with multiple algorithms, via OpenSSL and FFI
+Adds HMAC support to Lua with multiple algorithms, via OpenSSL and FFI.
+Inspired from https://github.com/openresty/lua-resty-string
+See: https://github.com/openresty/lua-resty-string/pull/18
 
 Table of Contents
 =================

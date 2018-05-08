@@ -1,7 +1,7 @@
 package = "lua-api-gateway-hmac"
 version = "1.0.0-0"
 source = {
-  url = "git://github.com/adobe-apiplatform/api-gateway-hmac",
+  url = "git://github.com/adobe-apiplatform/api-gateway-hmac.git",
   tag = "1.0.0"
 }
 description = {

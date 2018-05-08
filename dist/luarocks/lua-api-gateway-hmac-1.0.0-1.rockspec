@@ -1,8 +1,8 @@
 package = "lua-api-gateway-hmac"
 version = "1.0.0-1"
 source = {
-   url = "git://github.com/adobe-apiplatform/api-gateway-hmac",
-   tag = "lua-api-gateway-hmac-1.0.0"
+   url = "git://github.com/adobe-apiplatform/api-gateway-hmac.git",
+   tag = "1.0.0"
 }
 description = {
    summary = "HMAC support for Lua with multiple algorithms, via OpenSSL and FFI",
